@@ -1,0 +1,100 @@
+/* Custom styles for the FeedbackForm component */
+
+/* Container styles */
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+    padding: 20px;
+  }
+  
+  /* Feedback form box styling */
+  .feedback-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Title styling */
+  .feedback-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form group for input elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input and textarea styling */
+  .input, .textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .input:focus, .textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+  }
+  
+  /* Button styling */
+  .submit-button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .submit-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Add subtle animation for form appearance */
+  .feedback-form {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

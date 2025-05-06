@@ -1,0 +1,95 @@
+/* Custom styles for VisitCard component */
+
+/* Main container for the visit card */
+.visit-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  /* Hover effect for the visit card */
+  .visit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Header section of the card */
+  .visit-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Company name styling */
+  .visit-company {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Date styling */
+  .visit-date {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+  }
+  
+  /* Body section of the card */
+  .visit-card-body {
+    margin-top: 15px;
+  }
+  
+  /* Status text styling */
+  .visit-status {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.available {
+    color: #28a745; /* Green for available */
+  }
+  
+  .status.full {
+    color: #dc3545; /* Red for full */
+  }
+  
+  /* Register link styling */
+  .register-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .register-link:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .register-link:active {
+    transform: translateY(0);
+  }
+  
+  /* Fully booked text styling */
+  .fully-booked {
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
